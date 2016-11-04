@@ -56,4 +56,7 @@ To fork a GitHub repository:
 1. fork a repository on GitHub website
 2. git clone <URL of your fork> : clone your fork to your local repository. When the repository is cloned, git automatically sets up a remote.
 
-git fetch <remote name>: allows to update the master/origin branch without updating local master branch
+git fetch <remote name>: allows to update the master/origin branch without updating local master branch 
+git branch <branch name> : add new branch
+git checkout <branch name> : move to new branch
+git branch -m <newname> : reneam the current branch
